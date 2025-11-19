@@ -159,6 +159,9 @@ html, body {
         height: auto; /* Allows natural height on mobile */
         padding: 40px 20px; /* Adds more padding for mobile */
     }
+    #hero img{
+        margin-top:40px;
+    }
 }
 
 #hero h1, #hero h2 {
@@ -204,7 +207,7 @@ section {
     display: flex;
     align-items: center;
     gap: 40px; /* space between image & text */
-    padding: 40px;
+    padding: 80px;
 }
 
 /* Keep your image size */
@@ -462,6 +465,7 @@ section {
     }
 
 }
+
 
 
 
