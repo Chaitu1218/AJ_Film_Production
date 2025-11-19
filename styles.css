@@ -157,7 +157,7 @@ html, body {
 @media (max-width: 768px) {
     #hero {
         height: auto; /* Allows natural height on mobile */
-        padding: 40px 40px; /* Adds more padding for mobile */
+        padding: 40px 20px; /* Adds more padding for mobile */
     }
 }
 
@@ -204,7 +204,7 @@ section {
     display: flex;
     align-items: center;
     gap: 40px; /* space between image & text */
-    padding: 20px;
+    padding: 40px;
 }
 
 /* Keep your image size */
@@ -462,6 +462,7 @@ section {
     }
 
 }
+
 
 
 
