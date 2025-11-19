@@ -134,6 +134,7 @@ html, body {
     padding: 10px;
     width: 400px;
     height: 300px;
+    margin-top: 30px;
 }
 
 /* Button styling for better visibility */
@@ -469,4 +470,5 @@ section {
         grid-template-columns: 1fr;            /* 1 column on phones */
         padding: 10px;
     }
+
 }
