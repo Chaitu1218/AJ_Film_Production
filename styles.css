@@ -134,7 +134,7 @@ html, body {
     padding: 10px;
     width: 400px;
     height: 300px
-    margin-top:100px;
+    margin-top:10px;
 }
 
 /* Button styling for better visibility */
@@ -472,6 +472,7 @@ section {
         padding: 10px;
     }
 }
+
 
 
 
