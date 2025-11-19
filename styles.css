@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #000;
     color: #fff;
-    margin-top: 7px;
+    margin-top: 15px;
     padding: 0;
     line-height: 1.6;
 }
@@ -471,5 +471,6 @@ section {
         padding: 10px;
     }
 }
+
 
 
