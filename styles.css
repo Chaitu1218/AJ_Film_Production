@@ -131,11 +131,9 @@ html, body {
 
 
 #hero img {
-    padding: 10px;
+    padding: 20px;
     width: 400px;
     height: 300px;
-    position: relative;
-    top: 90px;
 }
 
 
@@ -474,6 +472,7 @@ section {
         padding: 10px;
     }
 }
+
 
 
 
