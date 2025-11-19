@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ Film Production - Ajay Bharti</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<nav class="navbar">
+    <img src="assets/png logo.png" class="logo">
+
+    <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" target="_parent">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio" target="_parent">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="icons">
+        <div data-aos="zoom-in-left" data-aos-delay="1500" class="fas fa-bars" id="menu"></div>
+    </div>
+</nav>
+    
+    <section id="hero">
+        <img src="assets\cover.jpeg">
+        <h2>AJ FILM PRODUCTION</h2>
+        <h2>Ajay Bharti</h2>
+        <p>Capturing life's precious moments</p>
+        <a href="#portfolio" class="cta-button">View My Work</a>
+    </section>
+
+    
+    <h2>About Me</h2>
+<section id="about">
+    <img src="assets/self.webp">
+    <div class="about-text">
+        <p>Hello, I'm Ajay Bharti.<br><br> A dedicated professional photographer with a passion for freezing time and capturing life's precious moments through my lens.<br> With a keen eye for detail and a love for storytelling, I strive to create images that not only inspire but also touch hearts. My approach is centered around understanding my clients' unique vision and bringing it to life in a way that's authentic, creative, and meaningful.<br> Whether it's a wedding, a portrait session, or a commercial shoot, I aim to deliver photographs that tell a story, evoke emotions, and preserve memories for a lifetime.</p>
+        <br><p class="tagline">A passionate photographer</p>
+        <a href="#portfolio" class="cta-button">More Info</a>
+    </div>
+</section>
+
+    
+    <section id="portfolio">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="assets\jwel1.webp" alt="Portrait Sample 1">
+            <img src="assets\jwel5.webp" alt="Candid Video Sample 1">
+            <img src="assets\jwel2.webp" alt="Video Production Sample 1">
+            <!-- Add more placeholders as needed -->
+<br>
+
+<div class="video-grid">
+
+    <div class="video-container">
+        <video controls preload="metadata" playsinline>
+            <source src="assets/v1.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <video controls preload="metadata" playsinline>
+            <source src="assets/v2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <video controls preload="metadata" playsinline>
+            <source src="assets/v3.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <video controls preload="metadata" playsinline>
+            <source src="assets/v4.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <video controls preload="metadata" playsinline>
+            <source src="assets/v5.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <video controls preload="metadata" playsinline>
+            <source src="assets/v6.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <video controls preload="metadata" playsinline>
+            <source src="assets/v7.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <video controls preload="metadata" playsinline>
+            <source src="assets/v8.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <video controls preload="metadata" playsinline>
+            <source src="assets/v9.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <video controls preload="metadata" playsinline>
+            <source src="assets/v10.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="video-container">
+        <video controls preload="metadata" playsinline>
+            <source src="assets/v11.mp4" type="video/mp4">
+        </video>
+    </div>
+
+</div>
+        </div>
+    </section>
+    
+<section id="contact">
+    <h2>Contact Me</h2>
+<form>
+    <div class="input-group">
+        <label>Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+    </div>
+
+    <div class="input-group">
+        <label>Contact Number</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+    </div>
+
+    <div class="input-group">
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="input-group">
+        <label>Message</label>
+        <textarea id="message" placeholder="Write your message..." required></textarea>
+    </div>
+
+    <button type="button" onclick="sendToWhatsApp()" class="submit-btn">Send Message</button>
+</form>
+</section>
+
+    
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- Logo + About -->
+        <div class="footer-section about">
+            <img src="assets\png logo.png" class="footer-logo" alt="Logo">
+            <p>AJ Film Production specializes in photography, cinematography, and creative media solutions. Capturing priceless moments with passion and perfection.</p>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-section contact">
+            <h3>Contact</h3>
+            <p><strong>Phone:</strong> <a href="tel:+918320130497">+91 8320130497</a></p>
+            <p><strong>Email:</strong> <a href="mailto:ajjubharti2002@gmail.com">ajjubharti2002@gmail.com</a></p>
+            <p><strong>Instagram:</strong><a href="https://www.instagram.com/aj_films_production_18?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@aj_fiml_production_18</a> / <a href="https://www.instagram.com/ajjuu___photographer18?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">@ajjuu_phptographer18</a></p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <a href="#about">About</a><br>
+            <a href="#gallery">Gallery</a><br>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2025 AJ Film Production. All rights reserved.
+    </div>
+</footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
